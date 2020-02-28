@@ -8,21 +8,21 @@ Password Generator
 
 ## Overall Process
 
-![markdownAssets/Overall_Process.png](https://github.com/rehamilton/Password_Generator/blob/master/markdownAssets/Overall_Process.PNG)
+![markdownAssets/Overall_Process.png](https://github.com/rehamilton/Password_Generator/blob/master/markdownAssets/Overall_Process.PNG "Overall Process")
 
 
 ## Beginning - Event Listener
 
 An event listener starts off the process. When the assigned buttoned is clicked the user is prompted for some guidelines as to the password complexity and length. Where inputs do not meet the stated restrictions, an alert is sent and the function is ended otherwise the next function is run.
 
-![markdownAssets/generateBtn.addEventListener.PNG]https://github.com/rehamilton/Password_Generator/blob/master/markdownAssets/generateBtn.addEventListener.PNG
+![markdownAssets/generateBtn.addEventListener.png](https://github.com/rehamilton/Password_Generator/blob/master/markdownAssets/generateBtn.addEventListener.PNG "addEventListener")
 
 
 ## End - writePassword
 
 The variables created within the Event Listener are passed through to this process in the function parenthesis (writePassword (*variables*)).
 
-![markdownAssets/writePassword.PNG]https://github.com/rehamilton/Password_Generator/blob/master/markdownAssets/writePassword.PNG
+![markdownAssets/writePassword.png](https://github.com/rehamilton/Password_Generator/blob/master/markdownAssets/writePassword.PNG "writePassword")
 
 While this function technically completes the process it also contains an instruction to run a generatPassowrd process. The variables generated within the Event Listener are passed on again to this function through the function's parenthesis (generatePassword(variables)).
 
@@ -31,7 +31,7 @@ While this function technically completes the process it also contains an instru
 
 The variables created within the Event Listener are passed through to this process in the function parenthesis (generatePassword (*variables*)).
 
-![markdownAssets/generatePassword.PNG]https://github.com/rehamilton/Password_Generator/blob/master/markdownAssets/generatePassword.PNG
+![markdownAssets/generatePassword.PNG](https://github.com/rehamilton/Password_Generator/blob/master/markdownAssets/generatePassword.PNG "generatePassword")
 
 Where there are no character types selected, an alert is run and the function is ended.
 

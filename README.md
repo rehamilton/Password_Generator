@@ -1,10 +1,9 @@
 # Password_Generator
-Password Generator
-
 
 A password generator was created following the below acceptance criteria set out in the homework. An additional acceptance criteria was added that at least one character choice had to be selected.  
 
 Below this I have broken down how the javascript works to achieve the acceptance criteria.
+
 
 ## Reference - Generate Password Requirements 
 
@@ -29,6 +28,9 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+
+
+# Solution
 
 ## Overall Process
 

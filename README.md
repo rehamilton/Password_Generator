@@ -65,6 +65,21 @@ Where there are no character types selected, an alert is run and the function is
 
 Where the function is successfully completed the password is returned to the writePassword function for processng to the relevant text box.
 
+### Random Functions
+
+#### Lower & Upper Characters and Numbers
+Math.Floor and Math.Random were used to create a number between:
+    - 1 and 26 for upper and lower(the number of letters in the aplhabet a-z) 
+    or 
+    - 1 and 10 for number (the number of single digit numbers available 0-9)
+
+The first character id within the browser character set (ie. the characterset number for "a" for lowers, "A" for uppers and "0" for numbers) was used to create a starting point and the result of the Math.Random (rounded) would result in a characterset number being chosen within the parameters of lowers, uppers or numbers.
+
+
+#### Special Characters
+
+As special characters span many different areas of the browser character set all of the symbols that I wanted to use were stated and the Math.Random was set to find a character within the symbols set out. 
+
 # Issues
 
 I would have liked the password to be a little more random. I had looked at creating an array from the password, randomising that array and changing it back to a string. It appeared that this involves some javascript imports that we have yet to look at though.

@@ -8,4 +8,4 @@ Password Generator
 
 ## Overall Process
 
-![Process]: (markdownAssets/Overall_Process.png)
+![markdownAssets/Overall_Process.png](https://github.com/rehamilton/Password_Generator/blob/master/markdownAssets/Overall_Process.PNG)

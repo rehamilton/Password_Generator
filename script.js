@@ -24,14 +24,11 @@ generateBtn.addEventListener("click", () => {
   }
     
     var length = parseInt(lengthEl, 10);
-  
 
   if (length < 8 || length > 128) {
     alert("not within allowable character length")
     return "";
   }
-
-  
    
   var lower = confirm("Would you like to include lower case characters?");
   var upper = confirm("Would you like to include upper case characters?");
@@ -92,7 +89,7 @@ function generatePassword(length, lower, upper, number, special) {
 }
 
 
-//Random character generator - v
+//Random character generator - http://www.net-comber.com/charset.html
 
 const randomFunc = {
   lower:    randomLower,

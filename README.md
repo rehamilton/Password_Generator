@@ -4,6 +4,8 @@ A password generator was created following the below acceptance criteria set out
 
 Below this I have broken down how the javascript works to achieve the acceptance criteria.
 
+I have left console logs in the javascript but commented them out in case you want to see the results.
+
 
 ## Reference - Generate Password Requirements 
 

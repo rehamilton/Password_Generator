@@ -30,7 +30,7 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 
-# Solution
+# Solution Guide
 
 ## Overall Process
 
@@ -63,6 +63,6 @@ Where there are no character types selected, an alert is run and the function is
 
 Where the function is successfully completed the password is returned to the writePassword function for processng to the relevant text box.
 
-## Issues
+# Issues
 
 I would have liked the password to be a little more random. I had looked at creating an array from the password, randomising that array and changing it back to a string. It appeared that this involves some javascript imports that we have yet to look at though.

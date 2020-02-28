@@ -13,7 +13,7 @@ function writePassword(length, lower, upper, number, special) {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", () => {
-  lengthEl = prompt("Please enter the length of the password. (Should be between 8 and 128 characters)");
+  lengthEl = prompt("Please enter the length of the password. (Must be between 8 and 128 characters)");
   
   var length = parseInt(lengthEl, 10);
 

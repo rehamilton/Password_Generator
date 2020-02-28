@@ -2,9 +2,33 @@
 Password Generator
 
 
+A password generator was created following the below acceptance criteria set out in the homework. An additional acceptance criteria was added that at least one character choice had to be selected.  
 
+Below this I have broken down how the javascript works to achieve the acceptance criteria.
 
+## Reference - Generate Password Requirements 
 
+For reference, the following requirements were set out in the homework.
+
+### Acceptance Criteria
+
+```
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN prompted for character types to include in the password
+THEN I choose lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
+```
 
 ## Overall Process
 
@@ -37,27 +61,6 @@ Where there are no character types selected, an alert is run and the function is
 
 Where the function is successfully completed the password is returned to the writePassword function for processng to the relevant text box.
 
+## Issues
 
-## Reference - Generate Password Requirements 
-
-For reference, the following requirements were set out in the homework.
-
-### Acceptance Criteria
-
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+I would have liked the password to be a little more random. I had looked at creating an array from the password, randomising that array and changing it back to a string. It appeared that this involves some javascript imports that we have yet to look at though.
